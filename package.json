@@ -1,0 +1,10 @@
+{
+	"name": "Image-log", 
+	"description": "record statistics of Image", 
+	"version": "0.0.1", 
+	"author": "Jess <maochengjie1988@gmail.com>", 
+	"private": true, 
+	"dependencies": {
+		"express": "3.x"
+	}
+}
