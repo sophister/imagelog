@@ -1,0 +1,26 @@
+
+//model层数据格式
+
+// 1. 页面分类
+
+var allPages = {
+	year : 2012, 
+	date : [
+	{pageIndex : 0, pageName : '首页'}, 
+	{pageIndex : 1, pageName : '结果页'}, 
+	{pageIndex : 2, pageName : '中间页'}, 
+	{pageIndex : 3, pageName : '目录页'}
+]};
+
+// 2. 每一条统计数据字段
+
+var StatisticItem = {
+	id : 0, 
+	name : '',	//统计项名称
+	description : '', //统计项描述
+	calc : '', 		//计算方法
+	author : '', 	//作者
+	createDate : '', //添加日期
+	updateDate : '', //修改日期
+	pageIndex : 1		//统计项对应的页面。如果该统计是中间页的统计项，就写中间页对应的pageIndex（见上表），一个统计只能对应一个页面
+};

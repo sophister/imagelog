@@ -1,0 +1,11 @@
+/*style of /item/add */
+
+input[type=text]{
+	width:200px;
+	font: normal, normal, normal, 14px/16px  Monaco, Arial;
+}
+
+#addForm label{
+	display: inline-block;
+	width: 200px;
+}

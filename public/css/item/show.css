@@ -1,0 +1,25 @@
+/*style of /item/show */
+
+#main{
+	min-height: 400px
+}
+
+/************************页面数据样式*************************/
+#pagesCon{
+	margin: 0 0 50px 50px;
+}
+
+/***************统计数据样式********************/
+
+#itemsCon td{
+	border-collapse: separate;
+	border: 1px solid #000;
+}
+
+#itemsCon .item-name{
+	max-width:200px;
+}
+
+#itemsCon .item-desc{
+	max-width:300px;
+}

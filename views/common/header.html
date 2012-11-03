@@ -1,0 +1,47 @@
+<style type="text/css">
+	input, textarea, select{
+		outline: none;
+	}
+	a{
+		text-decoration: none;
+	}
+	#nav{
+		position: relative;
+		text-align: center;
+		margin: 50px auto;
+		font: normal normal bold 16px/16px Monaco, Arial;
+	}
+	#nav .nav-li{
+		display: inline-block;
+	}
+	#nav .nav-li:hover{
+		
+	}
+	#nav a:link, #nav a:visited{
+		height: 16px;
+		padding: 5px;
+		display: block;
+		color: #ccc;
+	}
+	#nav a:hover, #nav a.current{
+		color:green;
+		border-bottom: 3px solid green;
+		padding-bottom: 2px;
+	}
+</style>
+<nav id="nav">
+	<ul class="nav-outer">
+		<li class="nav-li ">
+			<a href="/" class="<% if(uri == '/'){%>current<%}%>">首页</a>
+		</li>
+		<li class="nav-li">
+			<a href="/item/show" class="<% if(uri == '/item/show'){%>current<%}%>">查看统计项</a>
+		</li>
+		<li class="nav-li ">
+			<a href="/item/add" class="<% if(uri == '/item/add'){%>current<%}%>">添加统计项</a>
+		</li>
+		<li class="nav-li" >
+			<a href="/about" class="<% if(uri == '/about'){%>current<%}%>">关于</a>
+		</li>
+	</ul>
+</nav>

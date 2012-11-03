@@ -1,0 +1,11 @@
+/***CSS reset***/
+html, body, div, p, dl, ul, ol, li{
+	margin:0;
+	padding:0;
+	font:normal, normal, 12px Monaco, Arial;
+}
+
+/**copyright style**/
+#copyright{
+	text-align: center;
+}
